@@ -16,12 +16,12 @@ function closeNav() {
   document.getElementById("footer").style.width = "100%";
 }
 
-var dropdown = document.getElementById("dropdown-btn");
-var i;
+var dropdown = document.getElementsByClassName("dropdown");
 
 
 
-  for (i = 0; i < dropdown.length; i++) {
+
+  for (var i = 0; i < dropdown.length; i++) {
     dropdown[i].addEventListener("click", function () 
     {
       this.classList.toggle("active");

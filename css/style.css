@@ -156,7 +156,7 @@ body {
   }
 
   .sidebar .dropdown-container{
-    display: list-item;
+    display: none;
     background-color:  #ededed;
     padding-left: 8px;
   }
