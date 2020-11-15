@@ -13,7 +13,6 @@ body {
   
   overflow: hidden;
   background-color: #1f7c8c;
-  /* padding: 20px 10px; */
 
 }
 
@@ -151,7 +150,7 @@ body {
 
   .active {
     background-color: green;
-    color: ;
+    color: white;
   }
 
   .sidebar .closebtn {
