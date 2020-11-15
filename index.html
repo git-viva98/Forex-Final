@@ -23,7 +23,7 @@
 
     <div id="home_header" class="header">
 
-      <img class="logo" src="/images/logo_transparent.png" alt="EaseEx">
+      <img class="logo" src="./images/logo_transparent.png" alt="EaseEx">
       <div class="header-right">
         <a class="active" href="index.html">Home</a>
         <a href="analysis.html">Analysis</a>
@@ -63,34 +63,17 @@
     <div id="main_content">
       <div class="container">
 
-        <h6>Currency you have</h6>
 
-        <div class="select-box">
-          <div class="options-container">
-            <div class="option">
-              <input type="radio" class="radio" id="automobiles" name="category" />
-              <label for="automobiles">UDS</label>
-            </div>
+        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+        <div class="currency-selector">
+          <form action="./index.html">
+            <label for="currency-you-have">Currency You Have:</label>
+            <input type="number" id="currency-you-have" name="currency-you-have" placeholder="Enter Amount">
 
-            <div class="option">
-              <input type="radio" class="radio" id="film" name="category" />
-              <label for="film">INR</label>
-            </div>
+            <label for="currency-you-want">Currency You want:</label>
+            <input type="number" id="currency-you-want" name="currency-you-want" placeholder="Enter Amount">
 
-            <div class="option">
-              <input type="radio" class="radio" id="science" name="category" />
-              <label for="science">Yen</label>
-            </div>
-
-            <div class="option">
-              <input type="radio" class="radio" id="art" name="category" />
-              <label for="art">Pound</label>
-            </div>
-          </div>
-
-          <div class="selected">
-            Select currency
-          </div>
+          </form>
         </div>
 
         <form>
@@ -216,7 +199,7 @@
   <div id="footer">
     <div id="part1">
       <div id="companyinfo">
-        <a id="sitelink" href="index.html"><img src="/images/logo_transparent.png" alt="logo" class="logo"></a>
+        <a id="sitelink" href="index.html"><img src="./images/logo_transparent.png" alt="logo" class="logo"></a>
         <p id="title">Think ForEx think us.</p>
         <p id="detail">We create awesome code snippets that will help you in creating your own beautiful site. </p>
       </div>
